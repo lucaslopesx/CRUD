@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/index.css" />
+        <link
+            rel="stylesheet"
+            href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+        />
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <title>Learning CRUD</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>CRUD</h1>
+                <p>Using HTML-CSS-JS</p>
+            </div>
+            <div>
+                <button class="btn" onclick="openPopup()">
+                    <i class="far fa-plus-square"></i>
+                    Adicionar produto
+                </button>
+            </div>
+        </header>
+        <div></div>
+        <div id="openPopup" class="popup">
+            <button class="btn btn-close" onclick="closePopup()">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <h2>Adicionar Produto</h2>
+
+            <div>
+                <form action="">
+                    <input
+                        class="input"
+                        placeholder="Nome do produto"
+                        type="text"
+                        name=""
+                        id=""
+                    />
+                    <input
+                        class="input"
+                        placeholder="Descrição"
+                        type="text"
+                        name=""
+                        id=""
+                    />
+                </form>
+            </div>
+            <button class="btn">Adicionar</button>
+        </div>
+    </body>
+</html>
