@@ -35,33 +35,35 @@
                 </button>
             </div>
         </header>
-        <div></div>
+        <div id="product-container"></div>
         <div id="openPopup" class="popup">
-            <button class="btn btn-close" onclick="closePopup()">
+            <button class="btn btn-close icon" onclick="closePopup()">
                 <i class="fas fa-times"></i>
             </button>
 
             <h2>Adicionar Produto</h2>
 
             <div>
-                <form action="">
+                <form id="form-product">
                     <input
                         class="input"
                         placeholder="Nome do produto"
                         type="text"
-                        name=""
-                        id=""
+                        name="name"
+                        id="name"
                     />
                     <input
                         class="input"
                         placeholder="Descrição"
                         type="text"
-                        name=""
-                        id=""
+                        name="desc"
+                        id="desc"
                     />
+                    <button type="button" class="btn" onclick="addProduct()">
+                        Adicionar
+                    </button>
                 </form>
             </div>
-            <button class="btn">Adicionar</button>
         </div>
     </body>
 </html>
